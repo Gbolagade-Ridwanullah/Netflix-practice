@@ -1,0 +1,528 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+      /* section one */
+.one{
+    background-image: url(./image/Screenshot\ 2024-06-05\ 151846.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    padding-bottom: 5rem;
+    height: 95vh;
+    padding-bottom: 20px;
+    font-family:  Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;;
+}
+
+    /* header part */
+
+header{
+    top: 0;
+    width: 100%;
+}
+header nav{
+    display: flex;
+    width: 85%;
+    border: 1px solid black;
+    border: none;
+    height: 100px;
+    margin-inline: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3em;
+}
+
+
+header nav button{
+    color: #ffffff;
+    background-color: #ff0000;
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+
+      /* main part */
+main{
+    border: 1px solid black;
+    margin-inline: auto;
+    height: 50%;
+    margin-top: 15%;
+    border: none;
+    text-align: center;
+    width: 80%;
+}
+
+
+main h1{
+    font-size: 32px;
+    color: #ffffff;
+}
+
+
+main p{
+    color: #ffffff;
+    font-size: 18px;
+    margin: 16px 0px 0px;
+}
+main div{
+    border: 1px solid black;
+    width: 80%;
+    margin-inline: auto;
+    height: 100px;
+    border: none;
+}
+main div h3{
+    color: #ffffff;
+    font-size: 18px;
+}
+main div input{
+    width: 60%;
+    margin-inline: auto;
+    height: 40px;
+    display: block;
+    padding: 20px 16px 4px;
+    background-color: rgba(128, 128, 128, 0.268);
+}
+main div button{
+    height: 40px;
+    margin-top: 20px;
+    width: 20%;
+    background-color: #ff0000;
+    border: none;
+    border-radius: 6%;
+    color: #ffffff;
+}
+
+
+        /* section two */
+
+.two{
+    border: 3px solid rgb(152, 118, 78);
+    width: 100%;
+    display: flex;
+    border: none;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    height: 85vh;
+    padding-bottom: 5rem;
+}
+.two .text{
+    border: inherit;
+    width: 45%;
+    text-align: center;
+}
+.two .tp{
+    position: relative; 
+    border: inherit;
+    width: 45%; 
+}
+.two .tp .image{
+    width: 100%;
+    position: relative;
+}
+.two .tp .image .e15c37ii14{
+    position: absolute;
+    top: 21%;
+    left: 13%;
+}
+
+.two .text h2{
+    font-size: 48px;
+    color: white;
+}
+
+.two .text p{
+    font-size: 24px;
+    color: #ffffff;
+}
+
+
+           /* section three */
+
+.three{
+    border: 4px solid burlywood;
+    min-height: 80vh;
+    width: 100%;
+    border: none;
+    padding-bottom: 5rem;
+    background-color: black;
+}
+
+
+.three div{
+    align-items: center;
+}
+
+
+.three div h2{
+    font-size: 48px;
+    color: #ffffff;
+}
+
+
+.three .content{
+    border: inherit;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+    text-align: center;
+}
+
+
+.three .content p{
+    font-size: 24px;
+    margin: 16px 0px 0px;
+    color: #ffffff;
+}
+
+
+.three .content .dload1{
+    border: inherit;
+    width: 45%;
+}
+
+
+.three .content .dload2{
+    border: inherit;
+    width: 45%;
+}
+
+
+.three .content .dload2 .box{
+    display: flex;
+    margin-left: 25%;
+    width: 50%;
+    border: 2px solid rgba(128,128,128,0.7);
+    border-radius: 0.75rem;
+    box-shadow:  0 0 2em 0 rgb(0, 0, 0);
+    padding: 5.6px 12px;
+    text-align: center;
+}
+
+
+.three .content .dload2 .box .st{
+    width: 100%;
+    font-size: 120%;
+    color: #ffffff;
+}
+
+
+.three .content .dload2 .box .st .dp{
+    color: #0071eb;
+    font-size: 70%;
+}
+
+
+     /* section four */
+
+.four{
+    border: 4px solid rgb(46, 43, 40);
+    background-color: black;
+    width: 100%;
+    padding-bottom: 5rem;
+    border: none;
+}
+
+
+.four .box{
+    border: inherit;
+    width: 70%;
+    margin-inline: auto;
+}
+
+
+.four .box div h2{
+    color: #ffffff;
+    font-size: 40px;
+}
+.four .box div p{
+    color: #ffffff;
+    font-size: 24px;
+    margin: 16px 0px 0px;
+}
+
+
+.four .box div{
+    border: inherit;
+    width: 40%;
+}
+
+
+         /* section five */
+
+.five{
+    border: 4px solid rgb(132, 125, 125);
+    border:none; 
+    padding-bottom: 5rem;
+    width: 100%;
+    background-color: black;
+}
+
+
+.five .content{
+    border: inherit;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+}
+
+
+.five .content .bs{
+    border: inherit;
+    width: 45%;
+}
+
+
+.five .content .bt{
+    border: inherit;
+    width: 50%;
+}
+
+
+.five .content .bt h2{
+    color: #ffffff;
+    font-size: 48px;
+}
+
+
+.five .content .bt p{
+    color: #ffffff;
+    margin: 16px 0px 0px;
+    font-size: 24px;
+}
+
+
+       /* section  six */
+
+.six{
+    border: 4px solid rgb(90, 25, 25);
+    min-height: 100px;
+    align-items: center;
+    width: 100%;
+    background-color: black;
+}
+
+
+.six .all-content{
+    border: inherit;
+    width: 100%;
+    margin-inline: auto;
+}
+.six .all-content div h2 .title{
+    /* border: 2px solid green; */
+    display: flex;
+
+}
+.six .all-content  .bd-1 button{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /* border: #0071eb 2px solid; */
+}
+.six .all-content .bd-1{
+    background-color: rgb(45, 45, 45);
+}
+.six .all-content .bd-1 .bi{
+    /* border: 2px red solid; */
+    width: 5%;
+    text-align: right;
+    margin-left: 60px;
+    font-size: 40px;
+}
+
+.six .all-content .bd-1 .bi.bi:hover{
+    transition-timing-function: 5s;
+    transform: rotate(-310deg);
+}
+.six .all-content h2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 48px;
+}
+
+.six .all-content form{
+    border: inherit;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    height: 100px;
+    height: 30vh;
+    margin-inline: auto;
+}
+
+.six .all-content form h3{
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.six .all-content form input{
+    background-color: rgba(128, 128, 128, 0.241);
+    color: #ffffff;
+    border-radius: 5px;
+    width: 40%;
+    font-size: 18px;
+    padding: 20px 16px 4px;
+}
+.six .all-content form button{
+    height: 50px;
+    padding: 20px 16px 4px;
+    width: 200px;
+    background-color: rgb(229, 9, 20);
+    border-radius: 5px;
+    font-size: 18px;
+    color: #ffffff;
+}
+.footer{
+    border: 4px solid rgb(80, 7, 7);
+    height: 350px;
+    width: 100%;
+    background-color: black;
+    border: none;
+
+}
+.footer .size{
+    border: inherit;
+    height: 340px;
+    margin-inline: auto;
+    width: 85%;
+}
+.footer .size ul{
+    display: grid;
+    margin-top: 20px;
+    list-style: none;
+    height: 150px;
+    grid-template-columns:repeat( 4, 1fr) ;
+}
+.footer .size ul a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+       
+}
+.footer .size .contact-us a{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+}
+.footer .size .language{
+    width: 100%;
+}
+.footer .size .language select{
+    color: #ffffff;
+    height: 40px;
+    width: 100px;
+    width: auto;
+    border-radius: 90% #fff solid;
+    padding: 6px 36px;
+    background-color: rgba(128, 128, 128, 0.271);
+
+}
+.footer .size .net-city p{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       /* media quarie */
+
+@media(max-width:1032px) {
+    .one{
+        max-width: 100%;
+        min-height: auto;
+    }
+    main{
+        margin-top: 5%;
+    }
+    .three .content{
+        display: block;
+    }
+    .three .content .dload1{
+        width: 100%;
+    }
+    .three .content .dload2{
+        width: 100%;
+    }
+}
+
+@media (max-width: 780px) {
+    .two{
+        display: flex;
+        flex-direction: column;
+    }
+    .two .text{
+        width: 100%;
+    }
+    .two .tp{
+        width: 75%;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .one{
+        width: 100%;
+        padding: 20px;
+    }
+    main{
+        margin-top: 5%;
+    }
+    .five .content{
+        display: block;
+        flex: row;
+    }
+    .five .content .bs, .bt{
+        width: 100%;
+    }
+    .six .all-content form{
+        width: 100%;
+    }
+    .six .all-content form input{
+        width: 70%;
+    }
+}
+
+@media (max-width: 50px) {
+    .one, .two, .three, .four, .five, .six .footer{
+        width: 100%;
+        padding: 2px;
+    }
+}
