@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;    
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
 }
 
       /* section one */
@@ -14,7 +15,9 @@
     padding-bottom: 5rem;
     height: 95vh;
     padding-bottom: 20px;
-    font-family:  Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;;
+    font-family:  Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    
+
 }
 
     /* header part */
@@ -22,25 +25,28 @@
 header{
     top: 0;
     width: 100%;
+    padding: 24px 32px;
 }
 header nav{
     display: flex;
-    width: 85%;
+    /* width: 85%; */
     border: 1px solid black;
     border: none;
     height: 100px;
-    margin-inline: auto;
+    margin: -8px 0px 0px -16px;
     justify-content: space-between;
     align-items: center;
-    padding: 1.3em;
+    /* padding: 1.3em; */
 }
 
 
-header nav button{
+header nav button {
     color: #ffffff;
-    background-color: #ff0000;
-    border-radius: 5px;
-    padding: 5px 5px;
+    background-color: rgb(255, 9, 20);
+    border-radius: 10px;
+    width: 140px;
+    font-size: 28px;
+    padding: 10px 2px;
 }
 
       /* main part */
@@ -86,12 +92,12 @@ main div input{
     background-color: rgba(128, 128, 128, 0.268);
 }
 main div button{
-    height: 40px;
-    margin-top: 20px;
-    width: 20%;
-    background-color: #ff0000;
-    border: none;
-    border-radius: 6%;
+    height: 50px;
+    /* padding: 25px 106px px; */
+    width: 200px;
+    background-color: rgb(229, 9, 20);
+    border-radius: 5px;
+    font-size: 18px;
     color: #ffffff;
 }
 
@@ -103,7 +109,7 @@ main div button{
     width: 100%;
     display: flex;
     border: none;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     justify-content: space-between;
     align-items: center;
     height: 85vh;
@@ -119,14 +125,26 @@ main div button{
     border: inherit;
     width: 45%; 
 }
+
 .two .tp .image{
     width: 100%;
-    position: relative;
+    /* border: 2px solid blue; */
+}
+
+
+.two .tp .video-container{
+    position: absolute;
+    /* border: 1px red solid; */
+    width: 100%;
+    top: 21%;
+    left: 12%;
+    height: 100%;
+    max-width: 65%;
+    max-height: 54%;
+    /* z-index: -3; */
 }
 .two .tp .image .e15c37ii14{
-    position: absolute;
-    top: 21%;
-    left: 13%;
+     width: 100%;
 }
 
 .two .text h2{
@@ -390,13 +408,17 @@ main div button{
     border: inherit;
     height: 340px;
     margin-inline: auto;
-    width: 85%;
+    width: 77%;
+    align-items: center;
 }
 .footer .size ul{
     display: grid;
     margin-top: 20px;
+    /* border: #3c00ff 2px solid; */
     list-style: none;
     height: 150px;
+    width: 100%;
+    margin-inline: auto;
     grid-template-columns:repeat( 4, 1fr) ;
 }
 .footer .size ul a{
@@ -406,7 +428,7 @@ main div button{
 }
 .footer .size .contact-us a{
     color: rgba(255, 255, 255, 0.7);
-    font-size: 16px;
+    font-size: 24px;
 }
 .footer .size .language{
     width: 100%;
@@ -480,6 +502,21 @@ main div button{
     }
     .three .content .dload2{
         width: 100%;
+    }
+}
+
+@media (max-width: 960px) {
+    header nav img{
+        width: 100px;
+    }
+    header nav{
+        margin: -8px 0px 0px -8px;
+        width: 100%;
+    }
+    .footer .size ul{
+        width: 100%;
+        grid-template-columns:repeat( 2, 1fr) ;
+        margin-top: 20px;
     }
 }
 
