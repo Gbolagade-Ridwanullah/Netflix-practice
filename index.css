@@ -13,7 +13,7 @@
     width: 100%;
     position: relative;
     padding-bottom: 5rem;
-    height: 95vh;
+    min-height: 95vh;
     padding-bottom: 20px;
     font-family:  Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
     
@@ -53,7 +53,7 @@ header nav button {
 main{
     border: 1px solid black;
     margin-inline: auto;
-    height: 50%;
+    min-height: 50%;
     margin-top: 15%;
     border: none;
     text-align: center;
@@ -62,22 +62,21 @@ main{
 
 
 main h1{
-    font-size: 32px;
+    font-size: 48px;
     color: #ffffff;
 }
 
 
 main p{
     color: #ffffff;
-    font-size: 18px;
+    font-size: 28px;
     margin: 16px 0px 0px;
 }
 main div{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 80%;
     margin-inline: auto;
     height: 100px;
-    border: none;
 }
 main div h3{
     color: #ffffff;
@@ -183,7 +182,7 @@ main div button{
 
 .three .content{
     border: inherit;
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     margin-inline: auto;
@@ -200,7 +199,8 @@ main div button{
 
 .three .content .dload1{
     border: inherit;
-    width: 45%;
+    width: 50%;
+    
 }
 
 
@@ -212,8 +212,11 @@ main div button{
 
 .three .content .dload2 .box{
     display: flex;
-    margin-left: 25%;
-    width: 50%;
+    /* margin-left: 70px; */
+    width: 60%;
+    margin-inline: auto;
+    background-color: black;
+    /* margin-top: -80px; */
     border: 2px solid rgba(128,128,128,0.7);
     border-radius: 0.75rem;
     box-shadow:  0 0 2em 0 rgb(0, 0, 0);
@@ -318,7 +321,7 @@ main div button{
        /* section  six */
 
 .six{
-    border: 4px solid rgb(90, 25, 25);
+    /* border: 4px solid rgb(90, 25, 25); */
     min-height: 100px;
     align-items: center;
     width: 100%;
@@ -389,7 +392,7 @@ main div button{
 }
 .six .all-content form button{
     height: 50px;
-    padding: 20px 16px 4px;
+    /* padding: 25px 106px px; */
     width: 200px;
     background-color: rgb(229, 9, 20);
     border-radius: 5px;
@@ -488,15 +491,13 @@ main div button{
 
 @media(max-width:1032px) {
     .one{
-        max-width: 100%;
-        min-height: auto;
+        /* max-width: 100%; */
+        /* height: 100vh; */
     }
     main{
-        margin-top: 5%;
+        margin-top:2%;
     }
-    .three .content{
-        display: block;
-    }
+
     .three .content .dload1{
         width: 100%;
     }
@@ -508,6 +509,10 @@ main div button{
 @media (max-width: 960px) {
     header nav img{
         width: 100px;
+        height: 50px;
+    }
+    .three .content{
+        display: block;
     }
     header nav{
         margin: -8px 0px 0px -8px;
@@ -537,10 +542,14 @@ main div button{
 @media (max-width: 767px) {
     .one{
         width: 100%;
-        padding: 20px;
+        /* height: 100vh; */
+        padding: 5px;
     }
     main{
         margin-top: 5%;
+    }
+    main h1, p{
+        font-size: 20px;
     }
     .five .content{
         display: block;
@@ -554,12 +563,5 @@ main div button{
     }
     .six .all-content form input{
         width: 70%;
-    }
-}
-
-@media (max-width: 50px) {
-    .one, .two, .three, .four, .five, .six .footer{
-        width: 100%;
-        padding: 2px;
     }
 }
