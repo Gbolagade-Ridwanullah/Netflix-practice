@@ -344,7 +344,7 @@ main div button{
     align-items: center;
     display: flex;
     flex-direction: row;
-    border: #0071eb 2px solid;
+    /* border: #0071eb 2px solid; */
     align-items: center;
 }
 .six .all-content  .bd-1 button::after {
@@ -406,7 +406,7 @@ main div button{
 }
 .footer{
     border: 4px solid rgb(80, 7, 7);
-    height: 550px;
+    min-height: 350px;
     width: 100%;
     background-color: black;
     border: none;
@@ -422,9 +422,9 @@ main div button{
 .footer .size ul{
     display: grid;
     margin-top: 20px;
-    border: #3c00ff 2px solid;
+    /* border: #3c00ff 2px solid; */
     list-style: none;
-    height: 370px;
+    height: 120px;
     width: 100%;
     margin-inline: auto;
     grid-template-columns:repeat( 4, 1fr) ;
@@ -528,6 +528,11 @@ main div button{
         width: 100%;
         grid-template-columns:repeat( 2, 1fr) ;
         margin-top: 20px;
+        height: 280px;
+    }
+    .footer{
+        min-height: 550px;
+        background-color: black;
     }
 }
 
@@ -535,6 +540,7 @@ main div button{
     .two{
         display: flex;
         flex-direction: column;
+        /* height: 300px; */
     }
     .two .text{
         width: 100%;
@@ -568,6 +574,9 @@ main div button{
     }
     .six .all-content form input{
         width: 70%;
+    }
+    .footer .size ul{
+        height: 360px;
     }
 }
 
