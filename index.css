@@ -93,7 +93,7 @@ main div input{
 main div button{
     height: 50px;
     /* padding: 25px 106px px; */
-    width: 200px;
+    width: 160px;
     background-color: rgb(229, 9, 20);
     border-radius: 5px;
     font-size: 18px;
@@ -251,7 +251,7 @@ main div button{
 
 .four .box{
     border: inherit;
-    width: 70%;
+    width: 80%;
     margin-inline: auto;
 }
 
@@ -269,7 +269,7 @@ main div button{
 
 .four .box div{
     border: inherit;
-    width: 40%;
+    width: 50%;
 }
 
 
@@ -343,8 +343,16 @@ main div button{
     width: 100%;
     align-items: center;
     display: flex;
-    justify-content: space-between;
-    /* border: #0071eb 2px solid; */
+    flex-direction: row;
+    border: #0071eb 2px solid;
+    align-items: center;
+}
+.six .all-content  .bd-1 button::after {
+    content: "+";
+    font-size: 40px;
+}
+.six .all-content  .bd-1 button:checked::after{
+    content: "-";
 }
 .six .all-content .bd-1{
     background-color: rgb(45, 45, 45);
@@ -353,13 +361,11 @@ main div button{
     /* border: 2px red solid; */
     width: 5%;
     text-align: right;
-    margin-left: 60px;
+    margin-left: 80%;
     font-size: 40px;
 }
-
-.six .all-content .bd-1 .bi.bi:hover{
-    transition-timing-function: 5s;
-    transform: rotate(-310deg);
+#text{
+    border: #3c00ff 1px solid;
 }
 .six .all-content h2{
     color: #ffffff;
@@ -392,7 +398,6 @@ main div button{
 }
 .six .all-content form button{
     height: 50px;
-    /* padding: 25px 106px px; */
     width: 200px;
     background-color: rgb(229, 9, 20);
     border-radius: 5px;
@@ -401,7 +406,7 @@ main div button{
 }
 .footer{
     border: 4px solid rgb(80, 7, 7);
-    height: 350px;
+    height: 550px;
     width: 100%;
     background-color: black;
     border: none;
@@ -417,9 +422,9 @@ main div button{
 .footer .size ul{
     display: grid;
     margin-top: 20px;
-    /* border: #3c00ff 2px solid; */
+    border: #3c00ff 2px solid;
     list-style: none;
-    height: 150px;
+    height: 370px;
     width: 100%;
     margin-inline: auto;
     grid-template-columns:repeat( 4, 1fr) ;
@@ -438,7 +443,7 @@ main div button{
 }
 .footer .size .language select{
     color: #ffffff;
-    height: 40px;
+    height: 35px;
     width: 100px;
     width: auto;
     border-radius: 90% #fff solid;
@@ -447,7 +452,9 @@ main div button{
 
 }
 .footer .size .net-city p{
-    color: rgba(255, 255, 255, 0.7);
+    color: #ffffffb3;
+    font-size: 14px;
+    margin: 24px 0px 0px;
 }
 
 
@@ -490,10 +497,6 @@ main div button{
        /* media quarie */
 
 @media(max-width:1032px) {
-    .one{
-        /* max-width: 100%; */
-        /* height: 100vh; */
-    }
     main{
         margin-top:2%;
     }
@@ -516,6 +519,9 @@ main div button{
     }
     header nav{
         margin: -8px 0px 0px -8px;
+        width: 100%;
+    }
+    .four .box div{
         width: 100%;
     }
     .footer .size ul{
@@ -542,7 +548,6 @@ main div button{
 @media (max-width: 767px) {
     .one{
         width: 100%;
-        /* height: 100vh; */
         padding: 5px;
     }
     main{
@@ -563,5 +568,15 @@ main div button{
     }
     .six .all-content form input{
         width: 70%;
+    }
+}
+
+@media (max-width: 415px) {
+    .three .content .dload2 .box{
+        width: 75%;
+    }
+    .three .content .dload2 .box .loading{
+        width: 13%;
+        height: 60px;
     }
 }
