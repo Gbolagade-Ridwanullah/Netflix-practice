@@ -41,12 +41,19 @@ header nav{
 
 
 header nav button {
-    color: #ffffff;
+    /* color: #ffffff;
     background-color: rgb(255, 9, 20);
     border-radius: 10px;
     width: 100px;
     font-size: 28px;
-    min-height: 45px;
+    min-height: 45px; */
+    border: 0;
+    outline: 0;
+    background-color: #db0001;
+    color: #fff;
+    padding: 7px 20px;
+    border-radius: 6px;
+    margin-left: 10px;
 }
 
       /* main part */
@@ -371,6 +378,54 @@ main div button{
     color: #ffffff;
     text-align: center;
     font-size: 48px;
+}
+
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 890px;
+    color: #fff;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #303030;
+    margin-bottom: 2px;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform .1s;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+    background-color: #303030;
+    text-align: left;
+    padding: 0px 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 10s, padding 15s,;
+}
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+
+}
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
 }
 
 .six .all-content form{
